@@ -1,0 +1,139 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+.navbar {
+  font-size: 0.85rem;
+}
+
+.nav-link,
+.nav-text,
+.font-dark {
+  color: #222 !important;
+}
+
+.nav-link-menu:hover {
+  text-decoration: underline;
+  text-decoration-color: #ecc511;
+}
+
+.headline-banner {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.headline-banner-content-heading-2 {
+  font-weight: 900;
+}
+
+.headline-banner-content-button {
+  border-radius: 0;
+  border: none;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.4rem;
+  font-weight: 100;
+  padding: 5px 30px 5px 30px;
+  background-color: #7a0202;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.headline-banner-content-button:hover {
+  background: #610000;
+  border-radius: 0;
+}
+
+.bg-wood-section {
+  background-image: url(./images/trae.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-content {
+  padding-top: 6%;
+  padding-bottom: 8%;
+}
+
+.contact-content-text {
+  width: 65%;
+}
+
+.contact-content-form-button {
+  border-radius: 0;
+  border: none;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.8rem;
+  font-weight: 100;
+  padding: 5px 20px 5px 20px;
+  background-color: #7a0202;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-content-form-button:hover {
+  background: #610000;
+  border-radius: 0;
+}
+
+.footer {
+  background-color: #313132;
+  color: #fff;
+  font-size: 0.8rem !important;
+}
+
+.footer-img {
+  max-width: 220px !important;
+}
+
+.footer-ankenaevn-content {
+  padding-right: 70px !important;
+}
+
+@media (max-width: 767px) {
+  .headline-banner-content-heading-1 {
+    font-size: 2rem;
+  }
+  .headline-banner-content-heading-2 {
+    font-size: 2.5rem;
+  }
+  .headline-banner-content-button {
+    font-size: 0.8rem !important;
+  }
+  .footer-ankenaevn-content {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-content-text {
+    width: 75% !important;
+  }
+  .contact-content-map {
+    width: 75%;
+    height: 300px;
+    display: block;
+    margin: auto;
+  }
+  .footer-img {
+    width: 100% !important;
+  }
+  .footer-ankenaevn-content {
+    padding: 0 !important;
+    padding-top: 10px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-content-form {
+    padding-left: 120px !important;
+    width: 100% !important;
+  }
+  .navbar-brand {
+    width: 25% !important;
+  }
+}
